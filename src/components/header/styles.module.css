@@ -1,0 +1,21 @@
+.header_wrapper {
+    background-color: #3B3C3D;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.header_inner {
+    min-height: 110px;
+    padding: 43px 20px;
+    max-width: 1460px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.nav_container {
+    display: flex;
+    gap: 46px;
+}
