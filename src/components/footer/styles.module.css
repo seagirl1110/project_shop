@@ -1,0 +1,75 @@
+.footer_wrapper {
+    background-color: #232425;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footer_inner {
+    padding: 66px 20px 48px;
+    max-width: 1460px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 93px;
+}
+
+.footer_row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    margin-top: 7px;
+}
+
+.contacts_title {
+    margin-bottom: 26px;
+    font-size: 24px;
+    line-height: 19.44px;
+    color: #FFFFFF;
+
+}
+
+.contacts_item {
+    font-size: 18px;
+    line-height: 14.58px;
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+}
+
+.contacts_item:hover {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.social {
+    display: flex;
+    gap: 26px;
+    align-self: start;
+}
+
+.copywrite {
+    font-size: 20px;
+    line-height: 16.2px;
+    align-self: center;
+}
+
+.input {
+    background-color: transparent;
+    width: 407px;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    line-height: 16.2px;
+    color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 15px;
+    outline: none;
+}
+
+.input::placeholder {
+    line-height: 16.2px;
+    color: rgba(255, 255, 255, 0.5)
+}
