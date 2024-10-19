@@ -1,0 +1,16 @@
+.main_container {
+    flex-grow: 1;
+    padding: 28px 20px 127px;
+    max-width: 1460px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 130px;
+    padding-top: 45px;
+}
