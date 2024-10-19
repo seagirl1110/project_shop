@@ -29,7 +29,7 @@ function Main() {
       <Title title="Товары" />
       <div className={styles.products}>
         {products.map((item) => (
-          <Card key={item.id} {...item} />
+          <Card key={item.id} product={item} />
         ))}
       </div>
     </div>

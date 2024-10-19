@@ -1,0 +1,65 @@
+.card {
+    background: #FAFAFA;
+    border-radius: 10px;
+    padding: 22px;
+    display: flex;
+    gap: 36px;
+    align-items: start;
+}
+
+.card_img {
+    width: 197px;
+}
+
+.card_inner {
+    display: flex;
+    justify-content: space-between;
+    border-left: 1px solid rgba(0, 0, 0, 0.5);
+    padding-left: 36px;
+    gap: 4px;
+    flex-grow: 1;
+}
+
+.card_content {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card_title {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.26px;
+    max-width: 290px;
+}
+
+.card_price_title {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.07px;
+    color: #666666;
+}
+
+.card_price_wrapper {
+    flex-shrink: 0;
+}
+
+.card_price {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+}
+
+.card_btn {
+    width: 76px;
+    height: 76px;
+    background: #F3F3F3;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.card_btn:hover {
+    background: #E9E9E9;
+}
